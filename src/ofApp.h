@@ -1,8 +1,14 @@
 #pragma once
 
 #include "ofMain.h"
+#include "ofxGui.h"
+#include "scalar_2d_grid.h"
 
 class ofApp : public ofBaseApp{
+	private:
+		Scalar2DGrid grid;
+		ofxPanel gui;
+		ofxToggle gridToggle;
 
 	public:
 		void setup();
