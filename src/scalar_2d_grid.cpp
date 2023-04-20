@@ -4,10 +4,10 @@
 #include <ofGraphics.h>
 #include <string>
 
-void Scalar2DGrid::setup(int width, int height, float pointOffset){
+void Scalar2DGrid::setup(int width, int height, float point_offset){
     //adding +2 so we have points off screen
-    this->columns = (width/pointOffset) + 2;
-    this->rows = (height/pointOffset) + 2;
+    this->columns = (width/point_offset) + 2;
+    this->rows = (height/point_offset) + 2;
 
     points.resize(rows);
     pointMesh.setMode(OF_PRIMITIVE_POINTS);
@@ -32,8 +32,8 @@ void Scalar2DGrid::setup(int width, int height, float pointOffset){
             pointMesh.addVertex(position);
 
             //initializing wireframe mesh
-            ofVec3f rightPosition(x + pointOffset, y, 0);
-            ofVec3f bottomPosition(x, y + pointOffset, 0);
+            ofVec3f rightPosition(x + point_offset, y, 0);
+            ofVec3f bottomPosition(x, y + point_offset, 0);
             //horizontal line
             wireframe.addColor(color);
             wireframe.addVertex(position);
@@ -45,9 +45,9 @@ void Scalar2DGrid::setup(int width, int height, float pointOffset){
             wireframe.addColor(color);
             wireframe.addVertex(bottomPosition);
 
-            x += pointOffset;
+            x += point_offset;
         }
-        y += pointOffset;
+        y += point_offset;
     }
 
     glEnable(GL_POINT_SMOOTH);
@@ -65,4 +65,12 @@ void Scalar2DGrid::draw(){
             ofDrawBitmapString(value, point.x, point.y + offset);
         }
     }
+}
+
+float Scalar2DGrid::getPointValue(int column, int row){
+    return points[row][column].value;
+}
+
+void Scalar2DGrid::setPointValue(int column, int row, float new_value){
+    points[row][column].value = new_value;
 }

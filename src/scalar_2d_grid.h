@@ -19,6 +19,8 @@ public:
     //Scalar2DGrid();
     //~Scalar2DGrid();
 
-    void setup(int width, int height, float pointOffset);
+    void setup(int width, int height, float point_offset);
     void draw();
+    float getPointValue(int column, int row);
+    void setPointValue(int column, int row, float new_value);
 };
