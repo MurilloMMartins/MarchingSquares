@@ -2,6 +2,10 @@
 
 //--------------------------------------------------------------
 void ofApp::setup(){
+    grid.setup(ofGetWindowWidth(), ofGetWindowHeight(), 50.0f);
+
+    gui.setup("Debug Menu");
+    gui.add(gridToggle.setup("Toggle grid", true));
 
 }
 
@@ -12,7 +16,13 @@ void ofApp::update(){
 
 //--------------------------------------------------------------
 void ofApp::draw(){
+    ofSetBackgroundColor(ofColor::black);
 
+    if(gridToggle){
+        grid.draw();
+    }
+
+    gui.draw();
 }
 
 //--------------------------------------------------------------

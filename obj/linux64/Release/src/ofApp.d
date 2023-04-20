@@ -526,7 +526,20 @@ obj/linux64/Release/src/ofApp.o: \
  /home/murillo/Downloads/OpenFrameworks/libs/openFrameworks/video/ofGstVideoPlayer.h \
  /home/murillo/Downloads/OpenFrameworks/libs/openFrameworks/3d/of3dUtils.h \
  /home/murillo/Downloads/OpenFrameworks/libs/openFrameworks/3d/ofCamera.h \
- /home/murillo/Downloads/OpenFrameworks/libs/openFrameworks/3d/ofEasyCam.h
+ /home/murillo/Downloads/OpenFrameworks/libs/openFrameworks/3d/ofEasyCam.h \
+ /home/murillo/Downloads/OpenFrameworks/addons/ofxGui/src/ofxGui.h \
+ /home/murillo/Downloads/OpenFrameworks/addons/ofxGui/src/ofxToggle.h \
+ /home/murillo/Downloads/OpenFrameworks/addons/ofxGui/src/ofxBaseGui.h \
+ /home/murillo/Downloads/OpenFrameworks/addons/ofxGui/src/ofxSlider.h \
+ /home/murillo/Downloads/OpenFrameworks/addons/ofxGui/src/ofxInputField.h \
+ /home/murillo/Downloads/OpenFrameworks/addons/ofxGui/src/ofxGuiUtils.h \
+ /home/murillo/Downloads/OpenFrameworks/addons/ofxGui/src/ofxSliderGroup.h \
+ /home/murillo/Downloads/OpenFrameworks/addons/ofxGui/src/ofxGuiGroup.h \
+ /home/murillo/Downloads/OpenFrameworks/addons/ofxGui/src/ofxButton.h \
+ /home/murillo/Downloads/OpenFrameworks/addons/ofxGui/src/ofxLabel.h \
+ /home/murillo/Downloads/OpenFrameworks/addons/ofxGui/src/ofxColorPicker.h \
+ /home/murillo/Downloads/OpenFrameworks/addons/ofxGui/src/ofxPanel.h \
+ /home/murillo/Documents/Projects/MarchingSquares/src/scalar_2d_grid.h
 /home/murillo/Documents/Projects/MarchingSquares/src/ofApp.h:
 /home/murillo/Downloads/OpenFrameworks/libs/openFrameworks/ofMain.h:
 /home/murillo/Downloads/OpenFrameworks/libs/openFrameworks/utils/ofConstants.h:
@@ -1071,3 +1084,16 @@ obj/linux64/Release/src/ofApp.o: \
 /home/murillo/Downloads/OpenFrameworks/libs/openFrameworks/3d/of3dUtils.h:
 /home/murillo/Downloads/OpenFrameworks/libs/openFrameworks/3d/ofCamera.h:
 /home/murillo/Downloads/OpenFrameworks/libs/openFrameworks/3d/ofEasyCam.h:
+/home/murillo/Downloads/OpenFrameworks/addons/ofxGui/src/ofxGui.h:
+/home/murillo/Downloads/OpenFrameworks/addons/ofxGui/src/ofxToggle.h:
+/home/murillo/Downloads/OpenFrameworks/addons/ofxGui/src/ofxBaseGui.h:
+/home/murillo/Downloads/OpenFrameworks/addons/ofxGui/src/ofxSlider.h:
+/home/murillo/Downloads/OpenFrameworks/addons/ofxGui/src/ofxInputField.h:
+/home/murillo/Downloads/OpenFrameworks/addons/ofxGui/src/ofxGuiUtils.h:
+/home/murillo/Downloads/OpenFrameworks/addons/ofxGui/src/ofxSliderGroup.h:
+/home/murillo/Downloads/OpenFrameworks/addons/ofxGui/src/ofxGuiGroup.h:
+/home/murillo/Downloads/OpenFrameworks/addons/ofxGui/src/ofxButton.h:
+/home/murillo/Downloads/OpenFrameworks/addons/ofxGui/src/ofxLabel.h:
+/home/murillo/Downloads/OpenFrameworks/addons/ofxGui/src/ofxColorPicker.h:
+/home/murillo/Downloads/OpenFrameworks/addons/ofxGui/src/ofxPanel.h:
+/home/murillo/Documents/Projects/MarchingSquares/src/scalar_2d_grid.h:
