@@ -2,10 +2,13 @@
 
 //--------------------------------------------------------------
 void ofApp::setup(){
-    grid.setup(ofGetWindowWidth(), ofGetWindowHeight(), 50.0f);
+    float point_offset = 50.0f;
+
+    grid.setup(ofGetWindowWidth(), ofGetWindowHeight(), point_offset);
 
     gui.setup("Debug Menu");
     gui.add(gridToggle.setup("Toggle grid", true));
+    table.setup(point_offset);
 
 }
 
@@ -21,6 +24,8 @@ void ofApp::draw(){
     if(gridToggle){
         grid.draw();
     }
+
+    table.draw();
 
     gui.draw();
 }

@@ -539,7 +539,8 @@ obj/linux64/Release/src/main.o: \
  /home/murillo/Downloads/OpenFrameworks/addons/ofxGui/src/ofxLabel.h \
  /home/murillo/Downloads/OpenFrameworks/addons/ofxGui/src/ofxColorPicker.h \
  /home/murillo/Downloads/OpenFrameworks/addons/ofxGui/src/ofxPanel.h \
- /home/murillo/Documents/Projects/MarchingSquares/src/scalar_2d_grid.h
+ /home/murillo/Documents/Projects/MarchingSquares/src/Scalar2DGrid.h \
+ /home/murillo/Documents/Projects/MarchingSquares/src/LookupTable.h
 /home/murillo/Downloads/OpenFrameworks/libs/openFrameworks/ofMain.h:
 /home/murillo/Downloads/OpenFrameworks/libs/openFrameworks/utils/ofConstants.h:
 /home/murillo/Downloads/OpenFrameworks/libs/tess2/include/tesselator.h:
@@ -1096,4 +1097,5 @@ obj/linux64/Release/src/main.o: \
 /home/murillo/Downloads/OpenFrameworks/addons/ofxGui/src/ofxLabel.h:
 /home/murillo/Downloads/OpenFrameworks/addons/ofxGui/src/ofxColorPicker.h:
 /home/murillo/Downloads/OpenFrameworks/addons/ofxGui/src/ofxPanel.h:
-/home/murillo/Documents/Projects/MarchingSquares/src/scalar_2d_grid.h:
+/home/murillo/Documents/Projects/MarchingSquares/src/Scalar2DGrid.h:
+/home/murillo/Documents/Projects/MarchingSquares/src/LookupTable.h:

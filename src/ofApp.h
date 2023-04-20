@@ -2,11 +2,13 @@
 
 #include "ofMain.h"
 #include "ofxGui.h"
-#include "scalar_2d_grid.h"
+#include "Scalar2DGrid.h"
+#include "LookupTable.h"
 
 class ofApp : public ofBaseApp{
 	private:
 		Scalar2DGrid grid;
+		LookupTable table;
 		ofxPanel gui;
 		ofxToggle gridToggle;
 
