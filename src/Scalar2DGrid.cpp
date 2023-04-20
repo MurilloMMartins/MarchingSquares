@@ -1,4 +1,4 @@
-#include "scalar_2d_grid.h"
+#include "Scalar2DGrid.h"
 
 #include <iostream>
 #include <ofGraphics.h>
@@ -62,6 +62,7 @@ void Scalar2DGrid::draw(){
         for(auto point : row){
             int offset = 10.0f;
             std::string value = ofToString(point.value, 2);
+            ofSetColor(ofColor::white);
             ofDrawBitmapString(value, point.x, point.y + offset);
         }
     }
