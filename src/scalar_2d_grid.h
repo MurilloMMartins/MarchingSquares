@@ -11,7 +11,7 @@ typedef struct Scalar2DPoint_t {
 
 class Scalar2DGrid {
 private:
-    int width, height;
+    int columns, rows;
     std::vector<std::vector<Scalar2DPoint>> points;
     ofMesh pointMesh;
     ofMesh wireframe;

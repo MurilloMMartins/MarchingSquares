@@ -6,20 +6,20 @@
 
 void Scalar2DGrid::setup(int width, int height, float pointOffset){
     //adding +2 so we have points off screen
-    int columnAmount = (width/pointOffset) + 2;
-    int rowAmount = (height/pointOffset) + 2;
+    this->columns = (width/pointOffset) + 2;
+    this->rows = (height/pointOffset) + 2;
 
-    points.resize(rowAmount);
+    points.resize(rows);
     pointMesh.setMode(OF_PRIMITIVE_POINTS);
     wireframe.setMode(OF_PRIMITIVE_LINES);
 
     float x = 0, y = 0;
-    for(int i = 0; i < rowAmount; i++){
+    for(int i = 0; i < rows; i++){
 
-        points[i].resize(columnAmount);
+        points[i].resize(columns);
 
         x = 0;
-        for(int j = 0; j < columnAmount; j++){
+        for(int j = 0; j < columns; j++){
             //initializing point matrix
             points[i][j].x = x;
             points[i][j].y = y;
